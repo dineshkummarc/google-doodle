@@ -1,0 +1,23 @@
+/* TEAM */
+  Idea, development and tutorial: Rochester Oliveira
+  Site: roch.com.br
+  Twitter: @roch_br
+  Location: Itajubá, Brazil
+  
+  1stWebDesigner founder and marketer: Dainis Graveris
+  Site: http://www.1stwebdesigner.com/
+  Twitter: @1stwebdesigner
+  Location: Latvia
+  
+  Editorial head: Saad Bassi
+  Site: http://www.addictivefonts.com
+  Twitter: @SaadBassi
+  Location: Hidden somewhere in Pakistan
+  
+  Probably has edited this tutorial: Rean John Uehara
+  Site: http://knowledgesalad.com
+  Twitter: @ueharataichou
+  Location: Philippines
+  
+/* THANKS */
+  We have a big team at 1stWebDesigner.com , so thank you everyone.

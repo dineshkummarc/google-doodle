@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Google.com - Simon's day  (1stWebDesigner.com game :D)</title>
+  <meta name="description" content="Funny game!">
+  <meta name="author" content="Rochester Oliveira - 1stWebDesigner.com">
+
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="css/style.css?v=2">
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+  
+  <link type="text/plain" rel="author" href="humans.txt" />
+
+</head>
+<body>
+
+  <div id="container">
+    <div id="main">
+		<!-- lights -->
+		<div id="box-0" class="box">&nbsp;</div>
+		<div id="box-1" class="box">&nbsp;</div>
+		<div id="box-2" class="box">&nbsp;</div>
+		<div id="box-3" class="box">&nbsp;</div>
+		<!-- buttons -->
+		<a href="#" class="box btnTL" id="box-click-0">&nbsp;</a>
+		<a href="#" class="box btnTR" id="box-click-1">&nbsp;</a>
+		<a href="#" class="box btnBL" id="box-click-2">&nbsp;</a>
+		<a href="#" class="box btnBR" id="box-click-3">&nbsp;</a>
+		<!-- alerts -->
+		<div id="letsRock" class="alert">
+			<p>Ready? let's rock!</p>
+		</div>
+		<div id="ohYes" class="alert">
+			<p>Oh Yeah!</p>
+		</div>
+		<div id="ohNoes" class="alert">
+			<p>Oh Noes... Almost there! </p>
+		</div>
+    </div>
+	<form id="search" action="#" method="get">
+		<input type="text" name="query" id="query" />
+		<input type="submit" value="search" id="submit" />
+	</form>
+	<div id="options">
+		<ul>
+			<li>Level: <span id="levelCount">1</span></li>
+			<li><a href="#" onclick="newGame()" >New Game</a></li>
+			<li>High Score: <span id="hs">1</span></li>
+			<li><a href="http://www.1stwebdesigner.com" target="_blank" >Credits</a></li>
+		</ul>
+	</div>
+	<h2>Notes</h2>
+	<ul id="links">
+		<li>This is NOT an official google's doodle. We're just big fans of their amazing work</li>
+		<li>You can know more about it in our tutorial <a href="#">"Google Doodle HTML game"</a></li>
+		<li>We have a lot of easter eggs on this game ;)</li>
+		<li>It won't work in some browsers. Read the article to understand why.</li>
+	</ul>
+  </div>
+  <!--! end of #container -->
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
+
+  <!-- scripts-->
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
+
+</body>
+</html>
